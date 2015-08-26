@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustMeasure", "JustMeasure\JustMeasure.csproj", "{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Phone|Any CPU = Phone|Any CPU
+		Phone|ARM = Phone|ARM
+		Phone|x64 = Phone|x64
+		Phone|x86 = Phone|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Debug|ARM.Build.0 = Debug|ARM
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Debug|ARM.Deploy.0 = Debug|ARM
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Debug|x64.ActiveCfg = Debug|x64
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Debug|x64.Build.0 = Debug|x64
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Debug|x64.Deploy.0 = Debug|x64
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Debug|x86.ActiveCfg = Debug|x86
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Debug|x86.Build.0 = Debug|x86
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Debug|x86.Deploy.0 = Debug|x86
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Phone|Any CPU.ActiveCfg = Release|x64
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Phone|Any CPU.Build.0 = Release|x64
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Phone|Any CPU.Deploy.0 = Release|x64
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Phone|ARM.ActiveCfg = Release|ARM
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Phone|ARM.Build.0 = Release|ARM
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Phone|ARM.Deploy.0 = Release|ARM
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Phone|x64.ActiveCfg = Release|x64
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Phone|x64.Build.0 = Release|x64
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Phone|x64.Deploy.0 = Release|x64
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Phone|x86.ActiveCfg = Release|x86
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Phone|x86.Build.0 = Release|x86
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Phone|x86.Deploy.0 = Release|x86
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Release|Any CPU.ActiveCfg = Release|x86
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Release|ARM.ActiveCfg = Release|ARM
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Release|ARM.Build.0 = Release|ARM
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Release|ARM.Deploy.0 = Release|ARM
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Release|x64.ActiveCfg = Release|x64
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Release|x64.Build.0 = Release|x64
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Release|x64.Deploy.0 = Release|x64
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Release|x86.ActiveCfg = Release|x86
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Release|x86.Build.0 = Release|x86
+		{3FA19FD9-63A3-47CF-997E-AE9D1D1011EA}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

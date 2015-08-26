@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="acre" xml:space="preserve">
+    <value>acre</value>
+    <comment>Area Unit</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MeasureArea</value>
+  </data>
+  <data name="AreaUnits" xml:space="preserve">
+    <value>Area units</value>
+  </data>
+  <data name="BadSignal" xml:space="preserve">
+    <value>GPS signal is not good enough to start measure area.</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>cancel</value>
+  </data>
+  <data name="ch" xml:space="preserve">
+    <value>ch</value>
+    <comment>Length Unit</comment>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>done</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="ft" xml:space="preserve">
+    <value>ft</value>
+    <comment>Length Unit</comment>
+  </data>
+  <data name="ft2" xml:space="preserve">
+    <value>ft²</value>
+    <comment>Area Unit</comment>
+  </data>
+  <data name="ha" xml:space="preserve">
+    <value>ha</value>
+    <comment>Area Unit</comment>
+  </data>
+  <data name="km" xml:space="preserve">
+    <value>km</value>
+    <comment>Length Unit</comment>
+  </data>
+  <data name="km2" xml:space="preserve">
+    <value>km²</value>
+    <comment>Area Unit</comment>
+  </data>
+  <data name="DistanceUnits" xml:space="preserve">
+    <value>Distance units</value>
+  </data>
+  <data name="LocationDisabled" xml:space="preserve">
+    <value>GPS is disabled</value>
+  </data>
+  <data name="m" xml:space="preserve">
+    <value>m</value>
+    <comment>Length Unit</comment>
+  </data>
+  <data name="m2" xml:space="preserve">
+    <value>m²</value>
+    <comment>Area Unit</comment>
+  </data>
+  <data name="mi" xml:space="preserve">
+    <value>mi</value>
+    <comment>Length Unit</comment>
+  </data>
+  <data name="mi2" xml:space="preserve">
+    <value>mi²</value>
+    <comment>Area Unit</comment>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Tracking" xml:space="preserve">
+    <value>Tracking</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>stop</value>
+  </data>
+  <data name="yd" xml:space="preserve">
+    <value>yd</value>
+    <comment>Length Unit</comment>
+  </data>
+  <data name="yd2" xml:space="preserve">
+    <value>yd²</value>
+    <comment>Area Unit</comment>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Distance" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="TurnOnGps" xml:space="preserve">
+    <value>Turn on GPS</value>
+  </data>
+  <data name="LocationFound" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="LocationInitializing" xml:space="preserve">
+    <value>Initializing...</value>
+  </data>
+  <data name="acretext" xml:space="preserve">
+    <value>acres</value>
+  </data>
+  <data name="chtext" xml:space="preserve">
+    <value>ch'ihs</value>
+  </data>
+  <data name="ft2text" xml:space="preserve">
+    <value>square feets</value>
+  </data>
+  <data name="fttext" xml:space="preserve">
+    <value>feets</value>
+  </data>
+  <data name="hatext" xml:space="preserve">
+    <value>hectares</value>
+  </data>
+  <data name="km2text" xml:space="preserve">
+    <value>square kilometers</value>
+  </data>
+  <data name="kmtext" xml:space="preserve">
+    <value>kilometers</value>
+  </data>
+  <data name="m2text" xml:space="preserve">
+    <value>square meters</value>
+  </data>
+  <data name="mi2text" xml:space="preserve">
+    <value>square miles</value>
+  </data>
+  <data name="mitext" xml:space="preserve">
+    <value>miles</value>
+  </data>
+  <data name="mtext" xml:space="preserve">
+    <value>meters</value>
+  </data>
+  <data name="ScreenToggleText" xml:space="preserve">
+    <value>Keep screen turned on when measuring</value>
+  </data>
+  <data name="yd2text" xml:space="preserve">
+    <value>square yards</value>
+  </data>
+  <data name="ydtext" xml:space="preserve">
+    <value>yards</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Build" xml:space="preserve">
+    <value>Build</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="AerialMode" xml:space="preserve">
+    <value>Aerial</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="MapMode" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="MapModeText" xml:space="preserve">
+    <value>Map mode</value>
+  </data>
+  <data name="BuildDate" xml:space="preserve">
+    <value>Build date</value>
+  </data>
+  <data name="FailFile" xml:space="preserve">
+    <value>KML saving failed</value>
+  </data>
+  <data name="LoadKML" xml:space="preserve">
+    <value>Load a KML file</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="SaveToKML" xml:space="preserve">
+    <value>Save to KML</value>
+  </data>
+  <data name="SuccessFile" xml:space="preserve">
+    <value>KML saved Successfily</value>
+  </data>
+  <data name="DeleteMapData" xml:space="preserve">
+    <value>Do you really want to delete existing map?</value>
+  </data>
+</root>
